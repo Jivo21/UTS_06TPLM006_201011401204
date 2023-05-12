@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'UTS - Jivo Jinola - Mobile Programming',
       theme: ThemeData(
-        primaryColor: Color.fromARGB(255, 193, 196, 233),
+        primaryColor: Color.fromARGB(255, 54, 69, 235),
         fontFamily: 'Poppins',
       ),
       home: const MyHomePage(title: 'UTS - Jivo Jinola - 201011401204'),
@@ -73,15 +73,15 @@ class _MyHomePageState extends State<MyHomePage> {
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           Container(
-                            width: 60,
-                            height: 60,
+                            width: 150,
+                            height: 150,
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(100),
                               color: Color.fromARGB(255, 195, 195, 231),
                             ),
-                            child: Image.network(
-                              'https://cdn2.iconfinder.com/data/icons/shoes-6/128/outline_col-11-512.png',
-                              scale: 16,
+                            child: Image.asset(
+                              'shoes.png',
+                              scale: 5,
                             ),
                           ),
                         ],
@@ -104,7 +104,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           Text(
-                            'Vans Old Skool Flame',
+                            'Air Jordan 1 High OG Retro Bred',
                             style: TextStyle(
                               fontFamily: 'Poppins',
                               fontSize: 25,
@@ -112,28 +112,27 @@ class _MyHomePageState extends State<MyHomePage> {
                             ),
                           ),
                           Text(
-                            'Sneakers',
+                            'Sneakers Men',
                             style: TextStyle(
-                              fontFamily: 'Poppins',
+                              fontFamily: 'Montserrat',
                               fontSize: 18,
-                              fontWeight: FontWeight.w500,
+                              fontWeight: FontWeight.w600,
                             ),
                           ),
                           Padding(
                             padding: const EdgeInsets.only(top: 20),
                             child: Text(
-                              'Rp. 1.400.000',
+                              'Rp. 9.500.000',
                               style: TextStyle(
-                                fontFamily: 'Poppins',
+                                fontFamily: 'Montserrat',
                                 fontSize: 16,
-                                fontWeight: FontWeight.w500,
+                                fontWeight: FontWeight.w600,
                               ),
                             ),
                           ),
                         ],
                       ),
-                      Image.network(
-                          'https://pngimg.com/uploads/vans/vans_PNG6.png'),
+                      Image.asset('jordan1.png'),
                     ],
                   ),
                 ),
@@ -152,7 +151,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           Text(
-                            'Nike Dual Fusion  ST2  N7 Midnight  Fog',
+                            'Air Jordan 1 Retro High Off-White Chicago "The Ten"',
                             style: TextStyle(
                               fontFamily: 'Poppins',
                               fontSize: 25,
@@ -160,28 +159,27 @@ class _MyHomePageState extends State<MyHomePage> {
                             ),
                           ),
                           Text(
-                            'Sneakers',
+                            'Sneakers Men',
                             style: TextStyle(
-                              fontFamily: 'Poppins',
+                              fontFamily: 'Montserrat',
                               fontSize: 18,
-                              fontWeight: FontWeight.w500,
+                              fontWeight: FontWeight.w600,
                             ),
                           ),
                           Padding(
                             padding: const EdgeInsets.only(top: 20),
                             child: Text(
-                              'Rp. 1.180.000',
+                              'Rp. 160.000.000',
                               style: TextStyle(
-                                fontFamily: 'Poppins',
+                                fontFamily: 'Montserrat',
                                 fontSize: 16,
-                                fontWeight: FontWeight.w500,
+                                fontWeight: FontWeight.w600,
                               ),
                             ),
                           ),
                         ],
                       ),
-                      Image.network(
-                          'https://www.freeiconspng.com/uploads/running-shoes-png-sneakers-23.png'),
+                      Image.asset('jordanxoffwhite.png'),
                     ],
                   ),
                 ),
@@ -202,7 +200,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           Padding(
                             padding: const EdgeInsets.only(top: 6),
                             child: Text(
-                              'Nike Womens',
+                              'Nike Air Mag',
                               style: TextStyle(
                                 fontFamily: 'Poppins',
                                 fontSize: 25,
@@ -211,28 +209,27 @@ class _MyHomePageState extends State<MyHomePage> {
                             ),
                           ),
                           Text(
-                            'Sneakers',
+                            'Sneakers Men',
                             style: TextStyle(
-                              fontFamily: 'Poppins',
+                              fontFamily: 'Montserrat',
                               fontSize: 18,
-                              fontWeight: FontWeight.w500,
+                              fontWeight: FontWeight.w600,
                             ),
                           ),
                           Padding(
                             padding: const EdgeInsets.only(top: 20),
                             child: Text(
-                              'Rp. 800.000',
+                              'Rp. 1.434.939.000',
                               style: TextStyle(
-                                fontFamily: 'Poppins',
+                                fontFamily: 'Montserrat',
                                 fontSize: 16,
-                                fontWeight: FontWeight.w500,
+                                fontWeight: FontWeight.w600,
                               ),
                             ),
                           ),
                         ],
                       ),
-                      Image.network(
-                          'https://www.freeiconspng.com/uploads/running-shoes-images-download-29.png'),
+                      Image.asset('nikeairmag.png'),
                     ],
                   ),
                 ),
@@ -253,7 +250,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           Padding(
                             padding: const EdgeInsets.only(top: 6),
                             child: Text(
-                              'New Balance 993 Grey',
+                              'Jordan X Travis Scott 1 High',
                               style: TextStyle(
                                 fontFamily: 'Poppins',
                                 fontSize: 25,
@@ -262,10 +259,11 @@ class _MyHomePageState extends State<MyHomePage> {
                             ),
                           ),
                           Text(
-                            'Sneakers',
+                            'Sneakers Men',
                             style: TextStyle(
+                              fontFamily: 'Montserrat',
                               fontSize: 18,
-                              fontWeight: FontWeight.w500,
+                              fontWeight: FontWeight.w600,
                             ),
                           ),
                           Padding(
@@ -275,22 +273,21 @@ class _MyHomePageState extends State<MyHomePage> {
                               style: TextStyle(
                                 fontFamily: 'Poppins',
                                 fontSize: 16,
-                                fontWeight: FontWeight.w500,
+                                fontWeight: FontWeight.w600,
                               ),
                             ),
                           ),
                           Text(
-                            'Rp.4.000.000',
+                            'Rp. 23.100.000',
                             style: TextStyle(
-                              fontFamily: 'Poppins',
-                              fontSize: 15,
-                              fontWeight: FontWeight.w500,
+                              fontFamily: 'Montserrat',
+                              fontSize: 16,
+                              fontWeight: FontWeight.w600,
                             ),
                           ),
                         ],
                       ),
-                      Image.network(
-                          'https://pngimg.com/uploads/running_shoes/running_shoes_PNG5792.png'),
+                      Image.asset('travisscott.png'),
                     ],
                   ),
                 ),
@@ -311,7 +308,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           Padding(
                             padding: const EdgeInsets.only(top: 6),
                             child: Text(
-                              'ASICS Womens  Gel - Arctic  4',
+                              'Nike Air Yeezy 2 SP "Red October"',
                               style: TextStyle(
                                 fontFamily: 'Poppins',
                                 fontSize: 25,
@@ -320,28 +317,27 @@ class _MyHomePageState extends State<MyHomePage> {
                             ),
                           ),
                           Text(
-                            'Running',
+                            'Sneakers Men',
                             style: TextStyle(
-                              fontFamily: 'Poppins',
+                              fontFamily: 'Montserrat',
                               fontSize: 18,
-                              fontWeight: FontWeight.w500,
+                              fontWeight: FontWeight.w600,
                             ),
                           ),
                           Padding(
                             padding: const EdgeInsets.only(top: 20),
                             child: Text(
-                              'Rp. 900.000',
+                              'Rp. 126.000.000',
                               style: TextStyle(
-                                fontFamily: 'Poppins',
+                                fontFamily: 'Montserrat',
                                 fontSize: 16,
-                                fontWeight: FontWeight.w500,
+                                fontWeight: FontWeight.w600,
                               ),
                             ),
                           ),
                         ],
                       ),
-                      Image.network(
-                          'https://pngimg.com/uploads/running_shoes/running_shoes_PNG5814.png'),
+                      Image.asset('yeezy.png'),
                     ],
                   ),
                 ),
